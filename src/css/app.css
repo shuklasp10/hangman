@@ -1,0 +1,14 @@
+.game {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+}
+
+.result {
+    font-family: monospace;
+    font-size: 2rem;
+    color: red;
+    margin-top: 2rem
+}
+

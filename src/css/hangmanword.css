@@ -1,0 +1,7 @@
+.letter {
+    text-transform:uppercase;
+    margin: 10px;
+    font-size: 50px;
+    font-family: monospace;
+    border-bottom: 10px solid black;
+}

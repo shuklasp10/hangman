@@ -1,0 +1,102 @@
+.hangman{
+    position: relative;
+}
+
+.rod1 {
+    height: 400px;
+    width: 10px;
+    background-color: black;
+    margin-left: 120px;;
+}
+
+.rod2 {
+    height: 10px;
+    width: 125px;
+    margin-left: 120px;
+    background-color: black;
+}
+
+.rod3 {
+    height: 50px;
+    width: 10px;
+    margin-left: 120px;
+    background-color: black;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.head {
+    border: 10px solid black;
+    border-radius: 100%;
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    top: 50px;
+    right: -20px;
+}
+
+.body {
+    height: 120px;
+    width: 10px;
+    margin-left: 120px;
+    background-color: black;
+    position: absolute;
+    top: 100px;
+    right: 0;
+}
+
+.right-arm {
+    height: 10px;
+    width: 100px;
+    margin-left: 120px;
+    background-color: black;
+    position: absolute;
+    top: 120px;
+    right: -90px;
+    rotate: 30deg;
+    transform-origin: left bottom;
+}
+
+.left-arm {
+    height: 10px;
+    width: 100px;
+    margin-left: 120px;
+    background-color: black;
+    position: absolute;
+    top: 120px;
+    right: 0px;
+    rotate: -30deg;
+    transform-origin: right bottom;
+}
+
+.left-leg {
+    height: 10px;
+    width: 100px;
+    margin-left: 120px;
+    background-color: black;
+    position: absolute;
+    top: 210px;
+    right: 0px;
+    rotate: -30deg;
+    transform-origin: right bottom;
+}
+
+.right-leg {
+    height: 10px;
+    width: 100px;
+    margin-left: 120px;
+    background-color: black;
+    position: absolute;
+    top: 210px;
+    right: -90px;
+    rotate: 30deg;
+    transform-origin: left bottom;
+}
+
+.base {
+    height: 10px;
+    width: 250px;
+    background-color: black;
+}
+

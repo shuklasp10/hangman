@@ -1,0 +1,13 @@
+.keyboard {
+    width: 500px;
+    display: flex;
+    gap: 5px;
+    flex-wrap: wrap;
+    margin-bottom: 2rem;
+}
+
+.key {
+    height: 50px;
+    width: 50px;
+    font-size: 20px;
+}
